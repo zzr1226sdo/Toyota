@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 695px;
+  height: 430px;
+  margin: auto;
+  margin-top: 90px;
+}
+.leftTopWrap {
+  width: 355px;
+  height: 388px;
+  position: absolute;
+  top: 0px;
+  left: 229px;
+  color: white;
+}
+.greybg {
+  width: 439px;
+  height: 290px;
+  background-color: #ccc;
+  position: absolute;
+  right: 250px;
+  top: 0px;
+  z-index: -1;
+}
+.title {
+  background-color: #bf1b19;
+  display: flex;
+}
+.title p {
+  writing-mode: vertical-lr;
+  font-size: 80px;
+  text-align: center;
+  margin: 5px;
+}
+.title h2 {
+  font-size: 50px;
+  text-align: center;
+}
+.text {
+  background-color: black;
+  padding: 20px;
+}
+.text h3 {
+  padding: 5px;
+  font-size: 25px;
+}
+.text p {
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+.document {
+  background-color: #ccc;
+  width: 682px;
+  padding: 10px;
+  position: absolute;
+  left: 280px;
+}
+.reditems {
+  display: flex;
+  align-items: center;
+  color: #bf1b19;
+}
+.redline {
+  border: 1px solid;
+  width: 65%;
+  height: 0;
+  align-items: center;
+}
+.document h3 {
+  font-size: 20px;
+  padding: 5px;
+}
+.document ul {
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  color: #bf1b19;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 1em;
+}
+
+.document ul p {
+  background-color: black;
+  color: white;
+  width: 120px;
+  /* 怎麼把字撐開這個 */
+  text-align: center;
+  margin-left: 10px;
+}
+.document li {
+  display: flex;
+  padding: 3px 0;
+}
